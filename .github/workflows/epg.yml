@@ -1,5 +1,8 @@
 name: Update EPG
 
+on:
+  workflow_dispatch:
+
 jobs:
   Update-EPG:
     runs-on: ubuntu-latest
