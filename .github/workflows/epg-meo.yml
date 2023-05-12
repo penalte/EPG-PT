@@ -1,0 +1,31 @@
+name: Update EPG
+
+on:
+  workflow_dispatch:
+
+jobs:
+  Update-EPG:
+    runs-on: ubuntu-latest
+    steps:
+    
+      - name: checkout
+        uses: actions/checkout@v3
+        
+      - name: install XMLTV and URI::Encode
+        run: sudo apt-get install -y xmltv liburi-encode-perl
+        
+      - name: update EPG (meo)
+        run: sh EPG/epg-meo-pt.sh
+
+      - name: setup git config
+        run: |
+          git config user.name "M3UPT Bot"
+          git config user.email "<>"
+
+      - name: commit
+        run: |
+          git pull
+          cd EPG
+          git add tv_grab_pt_meo epg-meo-pt.xml epg-meo-pt.xml.gz
+          git commit -m "Update EPG"
+          git push origin main
