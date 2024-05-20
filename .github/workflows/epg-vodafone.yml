@@ -1,4 +1,4 @@
-name: Update EPG
+name: Update EPG Vodafone
 
 on:
   schedule:
@@ -28,5 +28,5 @@ jobs:
           git pull
           cd EPG
           git add tv_grab_pt_vodafone epg-vodafone-pt.xml epg-vodafone-pt.xml.gz
-          git commit -m "Update EPG"
+          git commit -m "Update EPG Vodafone"
           git push origin main
