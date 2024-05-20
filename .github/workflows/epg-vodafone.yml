@@ -2,7 +2,7 @@ name: Update EPG Vodafone
 
 on:
   schedule:
-    - cron: "0 21 * * *"
+  workflow_dispatch:
 
 jobs:
   Update-EPG:
