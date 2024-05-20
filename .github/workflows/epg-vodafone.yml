@@ -1,7 +1,6 @@
 name: Update EPG Vodafone
 
 on:
-  schedule:
   workflow_dispatch:
 
 jobs:
