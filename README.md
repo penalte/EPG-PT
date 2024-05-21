@@ -1,10 +1,13 @@
 # 📺EPG🇵🇹
 
-EPG playlist in XML format..
+PORTUGAL CARRIERSEPG playlist in XML format..
 
 
-## 🔗 Links to use in your IPTV player
+## 🔗 Links to use 
 
-* **M3U**: <https://m3upt.com/iptv>
 
-* **EPG**: <https://m3upt.com/epg>
+* **EPG VODAFONE**: <https://raw.githubusercontent.com/penalte/EPG-PT/main/EPG/epg-vodafone-pt.xml>
+
+* **EPG MEO**: SOON
+
+* **EPG NOS**: SOON
