@@ -1,6 +1,6 @@
 # 📺EPG🇵🇹
 
-PORTUGAL CARRIERSEPG playlist in XML format..
+PORTUGAL PROVIDERS EPG´s playlist in XML format...
 
 
 ## 🔗 Links to use 
