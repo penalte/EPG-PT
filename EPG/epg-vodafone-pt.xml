@@ -1,4 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE tv SYSTEM "xmltv.dtd">
 
-<tv source-info-url="https://web.ott-red.vodafone.pt/ott3_webapp/guia-tv" source-info-name="EPG Service for Vodafone" generator-info-name="XMLTV/0" generator-info-url="http://www.xmltv.org/"></tv>
+<tv source-info-url="https://cdn.pt.vtv.vodafone.com/epg/" source-info-name="EPG Service for Vodafone" generator-info-name="XMLTV/0" generator-info-url="http://www.xmltv.org/">
