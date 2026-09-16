@@ -1,7 +1,6 @@
 name: Update streams
 on:
-  schedule:
-    - cron: "0 * * * *"
+  workflow_dispatch:
 
 jobs:
   Update-streams:
